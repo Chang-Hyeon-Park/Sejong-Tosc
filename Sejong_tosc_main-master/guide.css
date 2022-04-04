@@ -6,13 +6,17 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
     src: url("font/Gotham-Bold.otf");
 }
 
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin:0;
+    padding:0;
 }
 
 
-
+.wrap {
+    margin:0;
+    width:100%;
+    height:100%;
+}
 .intro_bg{
     background-image: url("images/intro.png");
     background-size: cover;
@@ -21,13 +25,14 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 }
 
 .intro_bg .header{
+    position: sticky;
+    top:0;
     display: flex;
     justify-content: space-between;
-    margin-left:100px;
-    margin-right:100px;
+    padding-left:6%;
+    padding-right:6%;
     height:80px;
     align-items: center;
-    position: sticky;
 }
 
 .intro_bg .nav ul li{
@@ -67,15 +72,14 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 }
 
 .intro_title{
-    width: 1640px;
-    margin-top: 370px;
-    margin-left:100px;
+        /*여기 지우니까 스크롤 없어짐*/
+    margin-top:370px;
+    padding-left:6%;
 }
 
 .t1{
-    width: 674px;
-    height: 113px;
-    margin-left:0px;
+    width: 100%;
+    height: 100%;
 }
 .t1 > h1{
     font-size: 100px;
@@ -104,7 +108,7 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 }
 
 .test_exp{
-    width: 1640px;
+    width: 500px;   
     height: 746px;
     padding-top:96px;
     display: flex;
@@ -143,10 +147,9 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 }
 
 .right_content1{
-    width: 950px;
-    height: 617.42px;
-    padding-top: 87px;
-    margin-left: 340px;
+    position:absolute;
+    left:50%;
+    margin-left:-15%;
 }
 
 .right_content1 > hr{
@@ -205,7 +208,7 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 }
 
 .grade_exp{
-    width: 1640px;
+      /*요 부분 지우니까 스크롤 또 없어짐*/
     height: 1671px;
     padding-top: 129.5px;   
     display: flex;
@@ -221,10 +224,10 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 }
 
 .right_content2{
-    width: 950px;
-    height: 1620.5px;
-    padding-top: 22px;
-    margin-left: 340px;
+    position:absolute;
+    left:50%;
+    margin-left:-15%;
+    padding-top:15px;
 }
 
 .right_content2 > hr{
@@ -424,8 +427,11 @@ url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
     justify-content: space-between;
     width: 1640px;
     height: 150px;
-    margin-left : 150px;
+    margin-left : 5%;
+    margin-right: 5%;
     padding-top: 700px;   
     display: flex;
     opacity:0.7;
 }
+
+  
