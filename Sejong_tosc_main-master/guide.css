@@ -1,0 +1,431 @@
+@import
+url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url("font/Gotham-Bold.otf");
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+.intro_bg{
+    background-image: url("images/intro.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.intro_bg .header{
+    display: flex;
+    justify-content: space-between;
+    margin-left:100px;
+    margin-right:100px;
+    height:80px;
+    align-items: center;
+    position: sticky;
+}
+
+.intro_bg .nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border-style: solid;
+    background-color: none;
+    border-color: white;
+    padding: 5px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:5px;
+    border-radius: 20px;
+    border-width:1px;
+}
+
+.intro_bg .nav ul .FAQ {
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.intro_bg .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.intro_bg .nav ul li a:hover{
+    color: purple;
+}
+
+.GUIDE {
+    background-color: white;
+}
+#guide{
+    color: #464646;
+}
+
+.intro_title{
+    width: 1640px;
+    margin-top: 370px;
+    margin-left:100px;
+}
+
+.t1{
+    width: 674px;
+    height: 113px;
+    margin-left:0px;
+}
+.t1 > h1{
+    font-size: 100px;
+    font-family: 'Gotham';
+    text-align: left;
+    font-weight: 700;
+    color: #FFFFFF
+}
+
+.t2{
+    width: 530px;
+    height: 104px;
+    margin-top: 17px;
+}
+.t2 > p{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'NanumSquare';
+    letter-spacing: 0px;
+    color: #FFFFFF
+}
+
+.guide_wrap{
+    margin: auto;
+}
+
+.test_exp{
+    width: 1640px;
+    height: 746px;
+    padding-top:96px;
+    display: flex;
+}
+
+.left_title{
+    height: 151px;
+    font-weight: 800;
+    font-family: 'NanumSquare';
+    margin-left:100px;
+}
+
+.tp{
+    width: 32px;
+    height: 7px;
+    background-image: url("images/underbar.png");
+}
+
+.num1{
+    width: 36px;    
+    font-size: 58px;
+    font-weight: 800;
+    font-family: 'NanumSquare', sans-serif;
+    color: #585959;
+}
+
+.tap{
+    margin-top: 16px;
+    width: 211px;
+    text-align: left;
+
+    font: normal normal 800 55px/66px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+    opacity: 1; 
+}
+
+.right_content1{
+    width: 950px;
+    height: 617.42px;
+    padding-top: 87px;
+    margin-left: 340px;
+}
+
+.right_content1 > hr{
+    margin-top: 157.42px;
+    border: 2px solid #D5D5D5;
+    opacity: 1;
+}
+
+.text1 {
+    font: normal normal normal 38px/55px NanumSquare;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    color: #464646;
+}
+
+.text1 > p > span{
+    font: normal normal 800 38px/55px NanumSquare;
+    letter-spacing: 0.24px;
+    color: #464646;
+}
+
+.text2 {
+    margin-top: 39px;
+
+    text-align: left;
+    font: normal normal normal 20px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+}
+
+.text2 > p > span {
+    text-align: left;
+    font: normal normal 800 20px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #464646;
+}
+
+.image1{
+    margin-top: 62px;
+    display: flex;
+}
+
+.TOSC_logo{
+    width: 177px;
+    height: 82px;
+    margin-right: 69.84px;
+    background-image: url("images/TOSC_logo.png");
+    opacity: 1;
+}
+
+.SJU_logo{
+    width: 318px;
+    height: 77px;   
+    background-image: url("images/sju_logo.png");
+    opacity: 1;
+}
+
+.grade_exp{
+    width: 1640px;
+    height: 1671px;
+    padding-top: 129.5px;   
+    display: flex;
+}
+
+.tap1{
+    margin-top: 15px;
+    text-align: left;
+    font: normal normal 800 39px/44px NanumSquare;
+    letter-spacing: 0.24px;
+    color: #464646;
+    opacity: 1;
+}
+
+.right_content2{
+    width: 950px;
+    height: 1620.5px;
+    padding-top: 22px;
+    margin-left: 340px;
+}
+
+.right_content2 > hr{
+    margin-top: 157.42px;
+    border: 2px solid #D5D5D5;
+    margin-top: 168px;
+    opacity: 1;
+}
+
+.right_content2 > p{
+    text-align: left;
+    font: normal normal normal 17px/30px NanumSquare;
+    letter-spacing: 0px;
+    color: #000000;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+
+#text2_wrap{
+    display: flex; 
+}
+#text2-1{
+    margin-right:31px;
+}
+#tap1{
+    margin-top: 52px;
+}
+
+.grade_table{
+    background-image: url("images/chart.png");
+    background-size:contain;
+    background-position: 50% 50%;
+    margin-top: 65.5px;
+    height:1147px;
+    width: 813px;
+}
+
+#grade_guide {
+    text-align: left;
+    font: normal normal 800 30px/35px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    opacity: 1;
+}
+
+.date_place{
+    width: 1640px;
+    height: 1789px;
+    padding-top: 129.5px;   
+    display: flex;
+}
+.dp{
+    text-align: left;
+    font: normal normal 800 30px/35px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+}
+#tap2{
+    margin-top: 26px;
+}
+
+.card_wrap{
+    width: 1000px;
+    height: 392px;
+    margin-top: 41px ;
+    display: flex;
+}
+.card {
+    vertical-align: middle;
+}
+#card1 {
+    width: 305px;
+    height: 392px;
+    background-image: url("images/card.png");
+}
+#card2 {
+    width: 305px;
+    height: 392px;
+    background-image: url("images/card.png");
+}
+#card3 {
+    width: 305px;
+    height: 392px;
+    background-image: url("images/card.png");
+}
+
+.icon{
+    margin-top: 75px;
+}
+#icon1{
+    margin-left: 110px;
+    width: 106px;
+    height: 93px;
+    background-image: url("images/time.png");
+}
+#icon2{
+    margin-left: 117px;
+    width: 89px;
+    height: 101px;
+    background-image: url("images/clock.png");
+}
+#icon3{
+    margin-left: 113px;
+    width: 102px;
+    height: 102px;
+    background-image: url("images/control.png");
+}
+
+.button{
+    width: 117px;
+    height: 39px;
+    vertical-align: middle;
+    margin-left: 100px;
+    padding-top: 0.1px;
+}
+#button1{
+    background-image: url("images/Button.png");
+    margin-top: 26.19px;
+}
+#button2{
+    background-image: url("images/Button.png");
+    margin-top: 24.19px;
+}
+#button3{
+    background-image: url("images/Button.png");
+    margin-top: 18.19px;
+}
+
+.button > p{
+    margin-top: 8.91px;
+    margin-left: 22px;
+    font: normal normal 800 20px/23px NanumSquare;
+    letter-spacing: 0.13px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.exp{
+    margin-top: 12px;
+
+    text-align: center;
+    font: normal normal bold 18px/23px NanumSquare;
+    letter-spacing: 0.13px;
+    color: #464646;
+    opacity: 1;
+}
+#exp1{
+    width: 135px;
+    height: 22px;
+    margin-left: 93px;
+}
+#exp2{
+    width: 172px;
+    height: 45px;
+    margin-left: 73px;
+}
+#exp3{
+    width: 120px;
+    height: 45px;
+    margin-left: 100px;
+}
+
+.button > p{
+    margin-top: 8.91px;
+    margin-left: 22px;
+    font: normal normal 800 20px/23px NanumSquare;
+    letter-spacing: 0.13px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.load_wrap{
+    width: 422px;
+    height: 34px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 800 30px/35px NanumSquare;
+    letter-spacing: 0.19px;
+    color: #464646;
+    text-shadow: inset 0px 3px 6px #46464629;
+    opacity: 1;
+
+    margin-top: 200px;
+}
+
+.load_map{
+    width: 812px;
+    height: 1083px;
+    margin-top: 77px;
+    background-image: url("images/load_map.png");
+}
+
+.copyrights {
+    font-family: 'Gotham-Bold';
+    justify-content: space-between;
+    width: 1640px;
+    height: 150px;
+    margin-left : 150px;
+    padding-top: 700px;   
+    display: flex;
+    opacity:0.7;
+}
